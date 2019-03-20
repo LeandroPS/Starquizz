@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Star Wars Font";
+    src: url('../assets/Starjedi.ttf') format('truetype');
+}
+
+.centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+
+.button{
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 10px 20px;
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
