@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Buttons renders correctly 1`] = `
+<div
+  className="navigation-buttons"
+>
+  <button
+    onClick={[MockFunction]}
+  >
+    Anterior
+  </button>
+  <button
+    onClick={[MockFunction]}
+  >
+    Próximo
+  </button>
+</div>
+`;

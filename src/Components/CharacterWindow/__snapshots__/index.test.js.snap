@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character window renders correctly 1`] = `
+<div
+  className="character-window show"
+>
+  <button
+    className="close"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="fas fa-times"
+    />
+  </button>
+  <div
+    className="inner"
+  >
+    <div
+      className="thumbnail"
+      style={
+        Object {
+          "backgroundImage": "url(undefined)",
+        }
+      }
+    />
+    <div
+      className="details"
+    >
+      <h1>
+        Details
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Specie:
+            </th>
+            <th>
+              Height:
+            </th>
+            <th>
+              Planet:
+            </th>
+            <th>
+              Movies:
+            </th>
+            <th>
+              Vehicles:
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td>
+              123
+               cm
+            </td>
+            <td>
+              ;
+            </td>
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

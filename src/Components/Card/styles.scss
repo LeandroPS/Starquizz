@@ -1,0 +1,88 @@
+@import '../../styles/common';
+@import '../../styles/colors';
+
+.card{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+
+    @extend %box-shadow;
+
+    &:hover{
+        @extend %box-shadow-hovered;
+    }
+
+    &.guessed{
+
+        button{
+            display: none;
+        }
+    }
+
+    &.grows{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 500px;
+        margin: 0;
+
+        transition: all 1s;
+    }
+
+    .thumb{
+        padding-bottom: 100%;
+
+        background-color: $gray;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+
+        button{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+
+    .answer{
+        position: absolute;
+        height: 60px;
+        background-color: #fff;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        bottom: 0;
+        transition: bottom 1s;
+
+        input{
+            outline: none;
+            -webkit-appearance: none;
+            border: none;
+            background-color: transparent;
+            font: inherit;
+            height: 40px;
+
+            &:disabled{
+                font-weight: bold;
+                color: $black;
+            }
+        }
+
+        button{
+            position: absolute;
+            right: 10px;
+        }
+    }
+
+    button{
+        @extend .button; 
+    }
+}

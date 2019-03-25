@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial screen renders correctly 1`] = `
+<div
+  className="initial-screen"
+>
+  <div
+    className="centered"
+  >
+    <img
+      alt="A cabeça do Darth Vader"
+      className="darth-head"
+      src="darth.png"
+    />
+    <h1>
+      Star Wars quizz
+    </h1>
+    <h2>
+      Com esse quiz você terá oportunidade de identificar os principais personagens de Star- wars, marcar pontos e se tornar um expert nesta série de filmes maravilhosa!
+    </h2>
+    <button
+      className="button start-button"
+      onClick={[Function]}
+    >
+      START
+    </button>
+  </div>
+</div>
+`;

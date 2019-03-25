@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quizz Screen renders correctly 1`] = `
+<div
+  className="quizz-screen"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="container"
+    >
+      <img
+        alt="Cabeça do Darth Vader"
+        src="darth.png"
+      />
+      <div
+        className="timer"
+      >
+        02:00
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="cards-wrapper"
+    >
+      <div
+        className="card false"
+      >
+        <div
+          className="thumb"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+          >
+            <i
+              className="fas fa-question"
+            />
+          </button>
+        </div>
+        <div
+          className="answer false"
+        >
+          <input
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Resposta"
+            type="text"
+            value=""
+          />
+          <button
+            onClick={[Function]}
+          >
+            Ok
+          </button>
+        </div>
+      </div>
+      <div
+        className="card false"
+      >
+        <div
+          className="thumb"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+          >
+            <i
+              className="fas fa-question"
+            />
+          </button>
+        </div>
+        <div
+          className="answer false"
+        >
+          <input
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Resposta"
+            type="text"
+            value=""
+          />
+          <button
+            onClick={[Function]}
+          >
+            Ok
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="navigation-buttons"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Anterior
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Próximo
+    </button>
+  </div>
+  <div
+    className="feedback-window false"
+  >
+    <div
+      className="centered"
+    >
+      <h1>
+        Quizz finalizado
+      </h1>
+      <div
+        className="points"
+      >
+        <span
+          className="title"
+        >
+          você fez
+        </span>
+        <span
+          className="points"
+        >
+          0
+           Pontos!
+        </span>
+      </div>
+      <form
+        onSubmit={[Function]}
+      >
+        <span>
+          Preencha este formulário pra salvar a sua pontuação:
+        </span>
+        <input
+          className="name"
+          onChange={[Function]}
+          placeholder="Nome"
+          required={true}
+          type="text"
+        />
+        <input
+          className="email"
+          onChange={[Function]}
+          placeholder="E-mail"
+          required={true}
+          type="email"
+        />
+        <button
+          className="button"
+        >
+          Salvar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

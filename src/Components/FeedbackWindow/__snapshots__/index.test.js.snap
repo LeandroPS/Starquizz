@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feedback window renders correctly 1`] = `
+<div
+  className="feedback-window show"
+>
+  <div
+    className="centered"
+  >
+    <h1>
+      Quizz finalizado
+    </h1>
+    <div
+      className="points"
+    >
+      <span
+        className="title"
+      >
+        você fez
+      </span>
+      <span
+        className="points"
+      >
+        35
+         Pontos!
+      </span>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <span>
+        Preencha este formulário pra salvar a sua pontuação:
+      </span>
+      <input
+        className="name"
+        onChange={[Function]}
+        placeholder="Nome"
+        required={true}
+        type="text"
+      />
+      <input
+        className="email"
+        onChange={[Function]}
+        placeholder="E-mail"
+        required={true}
+        type="email"
+      />
+      <button
+        className="button"
+      >
+        Salvar
+      </button>
+    </form>
+  </div>
+</div>
+`;

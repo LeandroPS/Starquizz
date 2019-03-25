@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<div
+  className="card false"
+>
+  <div
+    className="thumb"
+    style={
+      Object {
+        "backgroundImage": "url(null)",
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-question"
+      />
+    </button>
+  </div>
+  <div
+    className="answer false"
+  >
+    <input
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Resposta"
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Ok
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+@import '../../styles/common.scss';
+
+.navigation-buttons{
+    width: fit-content;
+
+    button{
+        outline: none;
+    }
+
+    button:nth-child(1){
+        margin-right: 10px;
+        border: none;
+        font: inherit;
+        color: $black;
+        cursor: pointer;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    button:nth-child(2){
+        @extend .button;
+    }
+}

@@ -1,0 +1,58 @@
+@import '../../styles/colors.scss';
+
+
+.feedback-window{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 100%;
+    left: 0;
+
+    background-color: #fff;
+
+    text-align: center;
+
+    transition: top 0.3s;
+
+    &.show{
+        top: 0;
+        transition: top 0.3s;
+    }
+
+    div.points{
+        padding: 20px;
+        background-color: $light-gray;
+        display: inline-block;
+        font-size: 30px;
+        border-radius: 5px;
+
+        .title{
+            display: block;
+        }
+
+        .points{
+            display: block;
+            font-weight: bold;
+        }
+    }
+
+    form{
+        margin: 20px 0px;
+
+        input{
+            display: block;
+            margin: 10px 0px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid $gray;
+            box-sizing: border-box;
+        }
+
+        span.message{
+            display: block;
+            margin-bottom: 10px;
+            color: green;
+        }
+    }
+}
